@@ -1,4 +1,4 @@
-# katuko-app
+# Project name
 
 To install dependencies:
 
@@ -11,6 +11,7 @@ Setup database:
 ```bash
 bun run drizzle:schema
 bun run drizzle:migrate
+bun run drizzle:seed
 ```
 
 To run:
@@ -30,5 +31,3 @@ To create new component:
 ```bash
 bun scaffold component new Button
 ```
-
-This project was created using `bun init` in bun v1.1.4. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
